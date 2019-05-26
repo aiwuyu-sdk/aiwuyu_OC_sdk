@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB7DF34229A88800041615F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7DF33229A88800041615F /* AppDelegate.m */; };
+		DFB7DF37229A88800041615F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7DF36229A88800041615F /* ViewController.m */; };
+		DFB7DF3A229A88800041615F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB7DF38229A88800041615F /* Main.storyboard */; };
+		DFB7DF3C229A88830041615F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB7DF3B229A88830041615F /* Assets.xcassets */; };
+		DFB7DF3F229A88830041615F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB7DF3D229A88830041615F /* LaunchScreen.storyboard */; };
+		DFB7DF42229A88830041615F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7DF41229A88830041615F /* main.m */; };
+		DFB7DF98229AA6980041615F /* awySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFB7DF97229AA6980041615F /* awySDK.bundle */; };
+		DFB7DFA3229AB5680041615F /* aiwuyu_OC_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7DFA2229AB5680041615F /* aiwuyu_OC_sdk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFB7DF59229A891F0041615F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFB7DF2F229A88800041615F /* aiwuyu_OC_sdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiwuyu_OC_sdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB7DF32229A88800041615F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB7DF33229A88800041615F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB7DF35229A88800041615F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFB7DF36229A88800041615F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFB7DF39229A88800041615F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB7DF3B229A88830041615F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB7DF3E229A88830041615F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB7DF40229A88830041615F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB7DF41229A88830041615F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB7DF97229AA6980041615F /* awySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = awySDK.bundle; sourceTree = "<group>"; };
+		DFB7DFA2229AB5680041615F /* aiwuyu_OC_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = aiwuyu_OC_sdk.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB7DF2C229A88800041615F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB7DFA3229AB5680041615F /* aiwuyu_OC_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB7DF26229A88800041615F = {
+			isa = PBXGroup;
+			children = (
+				DFB7DF31229A88800041615F /* aiwuyu_OC_sdkDemo */,
+				DFB7DF30229A88800041615F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB7DF30229A88800041615F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB7DF2F229A88800041615F /* aiwuyu_OC_sdkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB7DF31229A88800041615F /* aiwuyu_OC_sdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFB7DFA2229AB5680041615F /* aiwuyu_OC_sdk.framework */,
+				DFB7DF97229AA6980041615F /* awySDK.bundle */,
+				DFB7DF32229A88800041615F /* AppDelegate.h */,
+				DFB7DF33229A88800041615F /* AppDelegate.m */,
+				DFB7DF35229A88800041615F /* ViewController.h */,
+				DFB7DF36229A88800041615F /* ViewController.m */,
+				DFB7DF38229A88800041615F /* Main.storyboard */,
+				DFB7DF3B229A88830041615F /* Assets.xcassets */,
+				DFB7DF3D229A88830041615F /* LaunchScreen.storyboard */,
+				DFB7DF40229A88830041615F /* Info.plist */,
+				DFB7DF41229A88830041615F /* main.m */,
+			);
+			path = aiwuyu_OC_sdkDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB7DF2E229A88800041615F /* aiwuyu_OC_sdkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB7DF45229A88830041615F /* Build configuration list for PBXNativeTarget "aiwuyu_OC_sdkDemo" */;
+			buildPhases = (
+				DFB7DF2B229A88800041615F /* Sources */,
+				DFB7DF2C229A88800041615F /* Frameworks */,
+				DFB7DF2D229A88800041615F /* Resources */,
+				DFB7DF59229A891F0041615F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aiwuyu_OC_sdkDemo;
+			productName = aiwuyu_OC_sdkDemo;
+			productReference = DFB7DF2F229A88800041615F /* aiwuyu_OC_sdkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB7DF27229A88800041615F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yuhongli;
+				TargetAttributes = {
+					DFB7DF2E229A88800041615F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DFB7DF2A229A88800041615F /* Build configuration list for PBXProject "aiwuyu_OC_sdkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB7DF26229A88800041615F;
+			productRefGroup = DFB7DF30229A88800041615F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB7DF2E229A88800041615F /* aiwuyu_OC_sdkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB7DF2D229A88800041615F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB7DF98229AA6980041615F /* awySDK.bundle in Resources */,
+				DFB7DF3F229A88830041615F /* LaunchScreen.storyboard in Resources */,
+				DFB7DF3C229A88830041615F /* Assets.xcassets in Resources */,
+				DFB7DF3A229A88800041615F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB7DF2B229A88800041615F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB7DF37229A88800041615F /* ViewController.m in Sources */,
+				DFB7DF42229A88830041615F /* main.m in Sources */,
+				DFB7DF34229A88800041615F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB7DF38229A88800041615F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB7DF39229A88800041615F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB7DF3D229A88830041615F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB7DF3E229A88830041615F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB7DF43229A88830041615F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFB7DF44229A88830041615F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB7DF46229A88830041615F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aiwuyu_OC_sdkDemo",
+				);
+				INFOPLIST_FILE = aiwuyu_OC_sdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yhl.aiwuyu-OC-sdkDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB7DF47229A88830041615F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/aiwuyu_OC_sdkDemo",
+				);
+				INFOPLIST_FILE = aiwuyu_OC_sdkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yhl.aiwuyu-OC-sdkDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB7DF2A229A88800041615F /* Build configuration list for PBXProject "aiwuyu_OC_sdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB7DF43229A88830041615F /* Debug */,
+				DFB7DF44229A88830041615F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB7DF45229A88830041615F /* Build configuration list for PBXNativeTarget "aiwuyu_OC_sdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB7DF46229A88830041615F /* Debug */,
+				DFB7DF47229A88830041615F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB7DF27229A88800041615F /* Project object */;
+}
