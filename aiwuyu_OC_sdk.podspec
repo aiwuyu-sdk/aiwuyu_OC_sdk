@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "aiwuyu_OC_sdk"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "爱无语SDK OC aiwuyu_OC_sdk."
   spec.description  = <<-DESC
 爱无语SDK OC
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 # spec.vendored_frameworks = 'aiwuyu_OC_sdkDemo/aiwuyu_OC_sdk/aiwuyu_OC_sdk.framework'
 # spec.public_header_files  = 'aiwuyu_OC_sdkDemo/aiwuyu_OC_sdk/aiwuyu_OC_sdk.framework/Headers/*.{h}'
 
-  spec.public_header_files = "aiwuyu_OC_sdkDemo/aiwuyu_OC_sdk/**/*.h"
+#spec.public_header_files = "aiwuyu_OC_sdkDemo/aiwuyu_OC_sdk/**/*.h"
   spec.resources = "aiwuyu_OC_sdkDemo/Resources/*.png"
   spec.frameworks = "Foundation","UIKit"
   spec.requires_arc = true
