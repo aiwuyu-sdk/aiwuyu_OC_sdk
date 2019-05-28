@@ -1,0 +1,6 @@
+framework module aiwuyu_OC_sdk {
+  umbrella header "aiwuyu_OC_sdk.h"
+
+  export *
+  module * { export * }
+}
