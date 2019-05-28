@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , assign)BOOL isEnableCallAuthInterface;
 @property (nonatomic , assign)BOOL isLog;
 
+@property (nonatomic , copy)NSString * appUserAgent;
+    
 + (NSString *)Awy_SDK_URL;
 + (NSString *)Awy_SDK_AES_KEY;
 + (void)log:(NSString * _Nonnull) str;
