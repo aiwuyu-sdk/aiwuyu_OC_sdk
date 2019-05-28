@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "aiwuyu_OC_sdk"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.0"
   spec.summary      = "爱无语SDK OC aiwuyu_OC_sdk."
   spec.description  = <<-DESC
 爱无语SDK OC

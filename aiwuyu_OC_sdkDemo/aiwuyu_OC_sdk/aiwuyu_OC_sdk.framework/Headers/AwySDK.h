@@ -40,7 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)setConfigWith:(BOOL)EnvironmentDebug enableContentShare:(BOOL)enableContentShare enableUnionAuth:(BOOL)enableUnionAuth enableCallAuthInterface:(BOOL)enableCallAuthInterface;
 + (void)isShowLog:(BOOL)log;
-
 @end
 
 NS_ASSUME_NONNULL_END
